@@ -1,0 +1,111 @@
+.parent {
+    background-color: papayawhip;
+    width: 100%;
+    position: relative;
+    height: 95vh;
+    border-style: solid;
+}
+
+.side-bar {
+    border-style: solid;
+    background-color: pink;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+.main2 {
+    border-style: solid;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    width: 985px;
+    height: 60px;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.main3 {
+    border-style: solid;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    width: 985px;
+    height: 400px;
+    background-color: pink;
+}
+
+.group-btn1 button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 70px;
+    display: block;
+    cursor: pointer;
+}
+
+.group-btn2 button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 100px;
+    cursor: pointer;
+    float: left;
+}
+
+.logos {
+    border-style: solid;
+    background-color: pink;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+h1 {
+    font-style: normal;
+    font-family: "Arial Black";
+
+}
+p,h2,h3 { font-family:"Arial"}
+
+p {font-size:16px}
+.h2 {
+    font-style: normal;
+    font-family: "Arial Black";
+
+}
+
+.costs { position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    width: 490px;
+    float: left;
+    height: 245px; }
+
+.budget { position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    overflow: hidden;
+    height: 350px; }
+
+.app-name { background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    float: left;
+    right: 10px;
+    top: 10px;
+    width: 960px;
+    height: 40px;}
